@@ -1,0 +1,46 @@
+:root {
+    --mainColor:#ff206e;
+}
+.text-mainColor{
+    color:var(--mainColor);
+}
+
+body{
+    background-image: url('../img/light_dot.jpg');
+}
+
+/* header  */
+.header{
+    background-image:url('../img/header/me.jpg');
+    background-size:cover;
+    background-position: center center;
+}
+.header .icons {
+    width:18%;
+}
+.header .icons i{
+    border:1px solid #222;
+    transition:all 1s;
+}
+.header .icons i:hover{
+    color:var(--mainColor);
+    border-color:#fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color:var(--mainColor)
+}
+/* end header */
+
+
+/* title */
+
+.title h2 {
+    color:#f1f1f1;
+    font-size:5rem;
+}
+
+.title h3 {
+
+    font-size:2.5rem;
+}
+/* end title  */
